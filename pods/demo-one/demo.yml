@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: demo-one
+  labels:
+    type: stack
+spec:
+  containers:
+  - name: fish
+    image: wernight/funbox:latest
+    command: ["asciiquarium"]
